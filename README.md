@@ -12,8 +12,9 @@ Before running the script,follow the following steps to allow the script to fetc
 4.Run the mai.py
 
 ### Prerequisites
-You will need Python 3.x
-Run requirments.py
+You will need Python 3.x.
+Python 3.x can be downloaded from https://www.python.org/downloads/
+Run requirments.py.requirments.py is a python script that will install all the needed modules
 
 ## Deployment
 Images are uploaded with the project
