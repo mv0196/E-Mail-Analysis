@@ -1,7 +1,6 @@
 from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import *
 import sys
-import MySQLdb
 from PyQt5.uic import loadUiType
 from PyQt5.QtChart import QChart, QChartView, QValueAxis, QBarCategoryAxis, QBarSet, QBarSeries
 from PyQt5.Qt import Qt
@@ -11,12 +10,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as pp
 import re
-import pandasql as ps
 
-import scipy.stats
-import pandas.plotting
-from IPython import display
-from ipywidgets import interact,widgets
 import mailbox
 import csv
 import email
