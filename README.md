@@ -14,10 +14,16 @@ Before running the script,follow the following steps to allow the script to fetc
 ### Prerequisites
 You will need Python 3.x.
 Python 3.x can be downloaded from https://www.python.org/downloads/
+
+###Instaling
 Run requirments.py.requirments.py is a python script that will install all the needed modules
 
 ## Deployment
 Images are uploaded with the project
+
+## Contributing
+
+Please read [CONTRIBUTING.md] for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Built With
 
