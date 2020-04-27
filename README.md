@@ -44,15 +44,15 @@ pip install matplotlib
 ```
 pip install regex
 ```
-*mailbox
+* mailbox
 ```
 pip install mailbox
 ```
-*email
+* email
 ```
 pip install email
 ```
-*poplib
+* poplib
 ```
 pip install PyQt5==5.13.0
 ```
@@ -72,4 +72,4 @@ Please read [CONTRIBUTING.md] for details on our code of conduct, and the proces
 
 ## Authors
 
-* **Mukul Verma**
+**Mukul Verma**
