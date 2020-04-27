@@ -132,10 +132,12 @@ class Index(QMainWindow,index_ui):
     def radiobutton1(self,btn):
         if btn.isChecked():
             n,done=QtWidgets.QInputDialog.getInt(self,"Top Mailers","Enter the number of Top Mailers you want to know about(Your max mailers are- "+str(len(list(set(self.df['from']))))+"):")
+            n=abs(n)
             self.top_mailers(n)
     def radiobutton2(self,btn):
         if btn.isChecked():
             n,done=QtWidgets.QInputDialog.getInt(self,"Top Dates","Enter the number of Top Dates you want to know about:",)#(Your max ----- are- ",len(list(set(self.df['dateofmonth']))),")   yha pe ye isliye ni lgaya kuki dateofmonth wala coloumn function k andr bna h!,use phle acess ni kr skte"
+            n=abs(n)
             self.top_dates(n)
     def radiobutton3(self,btn):
         if btn.isChecked():
@@ -143,22 +145,27 @@ class Index(QMainWindow,index_ui):
     def radiobutton4(self,btn):
         if btn.isChecked():
             n,done=QtWidgets.QInputDialog.getInt(self,"Top Months","Enter the number of Top months you want to know about:",)
+            n=abs(n)
             self.top_months(n)
     def radiobutton5(self,btn):
         if btn.isChecked():
             n,done=QtWidgets.QInputDialog.getInt(self,"Top Time Range","Enter the number of Top Time Range you want to know about:",)
+            n=abs(n)
             self.top_time_range(n)
     def radiobutton6(self,btn):
         if btn.isChecked():
             n,done=QtWidgets.QInputDialog.getInt(self,"Time Top Mailers Mail","Enter the number of Top Mailers you want to know about the Most time they mail:",)
+            n=abs(n)
             self.time_top_mailers_mail(n)
     def radiobutton7(self,btn):
         if btn.isChecked():
             n,done=QtWidgets.QInputDialog.getInt(self,"Top Mailers Time Range","Enter the number of Top Mailers you want to know about:",)
+            n=abs(n)
             self.top_mailers_time_range(n)
     def radiobutton8(self,btn):
         if btn.isChecked():
             n,done=QtWidgets.QInputDialog.getInt(self,"Top Year","Enter the number of Top Years you want to know about:",)
+            n=abs(n)
             self.top_year(n)
     def radiobutton9(self,btn):
         if btn.isChecked():
@@ -320,7 +327,7 @@ class Index(QMainWindow,index_ui):
             county=self.df['year'].value_counts()
             if n>len(county.axes[0]):
                 n=len(county.axes[0])
-            self.plotbargraph(county.head(n),"Top Mailers")
+            self.plotbargraph(county.head(n),"Top Year")
         except:
             pass
 
