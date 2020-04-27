@@ -22,7 +22,8 @@ Images are uploaded with the project
 ## Built With
 
 * Python 3.x
-* PyQt5
+* PyQt5.QtDesigner
+* Atom
 
 ## Authors
 
