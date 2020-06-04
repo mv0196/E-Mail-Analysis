@@ -9,7 +9,7 @@ Before running the script,follow the following steps to allow the script to fetc
 1.Go to  "https://myaccount.google.com/lesssecureapps?utm_source=google-account&utm_medium=web"     
 2.Allow the less secure apps                                            
 3.You are ready to analyse your own e-mails                       
-4.Run the mai.py
+4.Run the main.py
 
 ### Prerequisites
 You will need Python 3.x.
